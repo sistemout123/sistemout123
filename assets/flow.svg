@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Flow</title>
+  <desc id="desc">Capa ilustrada com três caminhos conectados, representando suporte, ativos e projetos.</desc>
+  <rect x="1" y="1" width="1198" height="238" rx="18" fill="#101C21" stroke="#2B4348" stroke-width="2"/>
+  <rect x="1" y="39" width="4" height="162" rx="2" fill="#6EE7B7"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <text x="48" y="54" fill="#6EE7B7" font-size="14" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" letter-spacing="3">01 / OPERAÇÕES DE TI</text>
+    <text x="44" y="135" fill="#F1F5F9" font-size="72" font-weight="700" letter-spacing="-2">Flow<tspan fill="#6EE7B7">.</tspan></text>
+    <text x="48" y="186" fill="#ACC4CC" font-size="23">Suporte. Ativos. Projetos. Conectados.</text>
+  </g>
+  <g stroke="#375A5F" stroke-width="2">
+    <path d="M844 67H886Q906 67 906 87V153Q906 173 928 173H950"/>
+    <path d="M844 173H886Q906 173 906 153V87Q906 67 928 67H950"/>
+    <path d="M1004 67H1044Q1060 67 1060 83V104"/>
+    <path d="M1004 173H1044Q1060 173 1060 157V137"/>
+  </g>
+  <g fill="#172E32" stroke="#41696A" stroke-width="2">
+    <rect x="790" y="40" width="54" height="54" rx="14"/>
+    <rect x="790" y="146" width="54" height="54" rx="14"/>
+    <rect x="950" y="40" width="54" height="54" rx="14"/>
+    <rect x="950" y="146" width="54" height="54" rx="14"/>
+  </g>
+  <path d="M804 67H830M817 54V80M804 166H830M804 179H822M964 67L974 77L990 58M964 173H990" stroke="#6EE7B7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1040" y="100" width="40" height="40" rx="12" fill="#6EE7B7"/>
+  <path d="M1051 120L1058 127L1070 113" stroke="#102A24" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

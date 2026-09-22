@@ -1,0 +1,59 @@
+name: Atualizar cobrinha de contribuições
+
+on:
+  schedule:
+    # Todos os dias às 06:17 de Fortaleza (UTC-3).
+    - cron: '17 9 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/snake.yml'
+      - 'README.md'
+      - 'README.en.md'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    name: Gerar e publicar SVGs
+    if: github.repository == 'sistemout123/sistemout123'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+
+      - name: Gerar animações nos temas claro e escuro
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            dist/github-snake.svg?palette=github-light&color_snake=%23059669&color_dots=%23ebedf0,%23bbf7d0,%234ade80,%2316a34a,%23166534
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%235eead4&color_dots=%23161b22,%23064e3b,%23047857,%2310b981,%236ee7b7
+
+      - name: Verificar os arquivos gerados
+        run: |
+          test -s dist/github-snake.svg
+          test -s dist/github-snake-dark.svg
+
+      - name: Publicar na branch output
+        uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865 # v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+          allow_empty_commit: false
+          commit_message: 'chore: atualizar animação de contribuições'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
