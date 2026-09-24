@@ -1,19 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">LeadCode</title>
-  <desc id="desc">Capa ilustrada com símbolos de código e uma estrela, representando programação e feedback de inteligência artificial.</desc>
-  <rect x="1" y="1" width="1198" height="238" rx="18" fill="#111D2B" stroke="#30465B" stroke-width="2"/>
-  <rect x="1" y="39" width="4" height="162" rx="2" fill="#7DD3FC"/>
-  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
-    <text x="48" y="54" fill="#7DD3FC" font-size="14" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" letter-spacing="3">02 / CÓDIGO + INTELIGÊNCIA ARTIFICIAL</text>
-    <text x="44" y="135" fill="#F1F5F9" font-size="72" font-weight="700" letter-spacing="-2">LeadCode<tspan fill="#7DD3FC">.</tspan></text>
-    <text x="48" y="186" fill="#B0C5DA" font-size="23">Praticar. Receber feedback. Evoluir.</text>
-  </g>
-  <rect x="782" y="38" width="302" height="164" rx="16" fill="#132437" stroke="#37566F" stroke-width="2"/>
-  <path d="M784 70H1082" stroke="#37566F"/>
-  <circle cx="803" cy="54" r="4" fill="#7DD3FC"/>
-  <circle cx="818" cy="54" r="4" fill="#37566F"/>
-  <circle cx="833" cy="54" r="4" fill="#37566F"/>
-  <path d="M862 106L832 136L862 166M1004 106L1034 136L1004 166M950 98L917 174" stroke="#7DD3FC" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="1091" cy="80" r="32" fill="#111D2B" stroke="#37566F" stroke-width="2"/>
-  <path d="M1091 59L1097 74L1112 80L1097 86L1091 101L1085 86L1070 80L1085 74Z" fill="#7DD3FC"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">02 — LeadCode</title><desc id="desc">Prática de programação com feedback de inteligência artificial.</desc>
+  <rect width="1200" height="250" fill="#101010"/><rect x="1" y="1" width="1198" height="248" fill="none" stroke="#5e5d56" stroke-width="2"/>
+  <path d="M42 56H1158M42 202H1158M871 56V202" stroke="#393935"/>
+  <text x="42" y="38" fill="#b5b2a8" font-family="Consolas,monospace" font-size="13" letter-spacing="2">02 / APRENDIZADO + IA</text>
+  <text x="40" y="157" fill="#eeeade" font-family="Impact,'Arial Narrow',sans-serif" font-size="101" letter-spacing="-2">LEADCODE<tspan fill="none" stroke="#eeeade" stroke-width="2">.</tspan></text>
+  <text x="42" y="231" fill="#b5b2a8" font-family="Consolas,monospace" font-size="14" letter-spacing="1.5">DESAFIO / CÓDIGO / FEEDBACK</text>
+  <g fill="none" stroke="#eeeade" stroke-width="3" stroke-linecap="square"><path d="m957 105-26 26 26 26m109-52 26 26-26 26m-38-65-23 78"/></g>
+  <path d="M902 183h225" stroke="#77766e"/><circle cx="1008" cy="183" r="5" fill="#eeeade"/>
 </svg>

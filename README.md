@@ -1,119 +1,67 @@
-<p align="right">
-  Português · <a href="README.en.md">English</a>
-</p>
+<p align="right"><a href="README.en.md">ENGLISH VERSION ↗</a></p>
 
-<p align="center">
-  <img src="assets/header.svg" width="100%" alt="João Pedro Fernandes — desenvolvedor de software. Ideias viram sistemas. Sistemas simplificam rotinas." />
-</p>
+<img src="assets/header.svg" width="100%" alt="João Pedro Fernandes. Do código à operação. Desenvolvedor full stack com projetos reais e um pequeno robô de jetpack." />
 
-<p align="center">
-  <strong>Desenvolvedor de software · Fundador da Appruma</strong><br />
-  Construo aplicações para organizar operações, conectar serviços e simplificar o dia a dia.
-</p>
+<p align="center"><a href="https://joaopedrofernandes.com.br">PORTFÓLIO ↗</a> &nbsp;·&nbsp; <a href="#projetos">PROJETOS ↓</a> &nbsp;·&nbsp; <a href="mailto:joao.pedroinfo2019@gmail.com">VAMOS CONVERSAR ↗</a></p>
 
-<p align="center">
-  <a href="https://joaopedrofernandes.com.br"><strong>Meu portfólio ↗</strong></a>
-  &nbsp; / &nbsp;
-  <a href="#projetos-em-destaque">Explore os projetos ↓</a>
-  &nbsp; / &nbsp;
-  <a href="#o-que-eu-construo">O que eu construo ↓</a>
-</p>
+---
 
-<p align="center">
-  <sub>joaopedrofernandes.com.br · portfólio em construção</sub>
-</p>
+### 00 / SOBRE
 
-## Um pouco sobre mim
+Eu transformo problemas operacionais em software que as pessoas realmente usam. Gosto de trabalhar no percurso completo: entender a rotina, modelar os dados, construir as regras de negócio e desenhar uma interface que faça sentido.
 
-Sou João Pedro. Gosto de entender como uma operação funciona e transformar suas necessidades em software: do banco de dados às regras de negócio, das integrações à interface que alguém usa todos os dias.
+Minha base é **PHP e Laravel**; no frontend, trabalho com **Vue, React e TypeScript**. Também cuido de integrações, implantação e evolução de sistemas em produção. Sou fundador da **Appruma**, um produto em desenvolvimento para profissionais autônomos.
 
-Minha base é **PHP e Laravel**, com **React e Vue** no frontend. Nos meus projetos, exploro sistemas de gestão, integrações entre plataformas e aplicações com inteligência artificial. Também sou fundador da **Appruma**, onde estou construindo um produto para a rotina de profissionais autônomos.
+> **O que me move:** código que sai do repositório e melhora uma operação real.
 
-## Projetos em destaque
+<a id="projetos"></a>
+### 01 / PROJETOS
 
-### 01 / Flow
+<a href="https://github.com/sistemout123/Flow"><img src="assets/flow.svg" width="100%" alt="01 — Flow. Suporte, ativos e projetos de TI em um só fluxo. Abrir repositório." /></a>
 
-<a href="https://github.com/sistemout123/Flow">
-  <img src="assets/flow.svg" width="100%" alt="Flow — suporte, ativos e projetos de TI em um só lugar" />
-</a>
+**Flow** reúne chamados, ativos e projetos de TI em portais para clientes, agentes e administradores. Modelei prioridade e SLA, além de integrações com **Active Directory/LDAP, GitHub OAuth e webhooks**.
 
-Uma plataforma que reúne **help desk, gestão de ativos e projetos de TI**, com portais para administradores, agentes e clientes.
+`Laravel` `Vue` `TypeScript` `Inertia` `MySQL`<br />
+[Explorar o código ↗](https://github.com/sistemout123/Flow) · Estudo de caso no portfólio em breve
 
-- **O problema:** chamados, equipamentos e projetos espalhados em ferramentas diferentes.
-- **No projeto:** regras de prioridade e SLA, quadros Kanban e integrações com Active Directory e GitHub.
-- **O que demonstra:** modelagem de processos, integrações corporativas e interfaces para diferentes perfis de usuário.
+<br />
 
-`Laravel` `Vue` `TypeScript` `Inertia.js` `MySQL` `Tailwind CSS`
+<a href="https://github.com/sistemout123/LeadCode"><img src="assets/leadcode.svg" width="100%" alt="02 — LeadCode. Desafios de programação e feedback de IA. Abrir repositório." /></a>
 
-[Explore o Flow →](https://github.com/sistemout123/Flow)
+**LeadCode** é uma plataforma de prática para entrevistas técnicas, com desafios, editor Monaco, histórico e progresso. Organizei a integração de feedback e dicas de IA com **Gemini, Claude e OpenAI** por interfaces e uma factory de provedores.
 
-### 02 / LeadCode
+`Laravel` `React` `TypeScript` `SQLite` `Monaco Editor`<br />
+[Explorar o código ↗](https://github.com/sistemout123/LeadCode) · Estudo de caso no portfólio em breve
 
-<a href="https://github.com/sistemout123/LeadCode">
-  <img src="assets/leadcode.svg" width="100%" alt="LeadCode — prática de programação com feedback de inteligência artificial" />
-</a>
+<br />
 
-Uma plataforma de **preparação para entrevistas técnicas**, com desafios de programação, editor no navegador e feedback de IA.
+<a href="https://github.com/sistemout123/LucasBurger"><img src="assets/lucasburger.svg" width="100%" alt="03 — LucasBurger. Da engenharia à operação em produção. Abrir repositório." /></a>
 
-- **O problema:** praticar algoritmos sem orientação sobre como melhorar a solução.
-- **No projeto:** editor Monaco, dicas contextuais, histórico de submissões e progresso com XP e níveis.
-- **O que demonstra:** integração com APIs de IA, separação entre provedores e uma experiência interativa de aprendizado.
+**LucasBurger** atende a hamburgueria da minha família em produção. A versão atual conecta pedidos, atendimento e estoque, com **NFC-e, atualizações em tempo real e implantação em VPS**. O repositório público documenta uma **versão anterior** do projeto.
 
-`Laravel` `React` `TypeScript` `SQLite` `Monaco Editor` `Gemini · Claude · OpenAI`
+`Laravel` `Vue` `Inertia` `MySQL` `NFC-e` `VPS`<br />
+[Explorar a versão pública ↗](https://github.com/sistemout123/LucasBurger) · Estudo de caso no portfólio em breve
 
-[Explore o LeadCode →](https://github.com/sistemout123/LeadCode)
+### 02 / COMO EU CONSTRUO
 
-### 03 / LucasBurger
+**Backend e produto** — PHP, Laravel, APIs, regras de negócio, autenticação e modelagem relacional.<br />
+**Interfaces** — Vue, React, TypeScript, componentes e fluxos pensados para quem usa.<br />
+**Integrações e operação** — OAuth, LDAP, webhooks, IA aplicada, MySQL/SQLite, deploy em VPS e evolução em produção.
 
-<a href="https://github.com/sistemout123/LucasBurger">
-  <img src="assets/lucasburger.svg" width="100%" alt="LucasBurger — gestão de lanchonete, do pedido ao estoque" />
-</a>
-
-Um projeto de **gestão para lanchonetes**, conectando pedidos, mesas, pagamentos e controle de ingredientes.
-
-- **O problema:** manter o atendimento e a movimentação de estoque organizados na mesma operação.
-- **No projeto:** APIs de pedidos e pagamentos, painel administrativo e serviços de estoque e inventário.
-- **O que demonstra:** regras de negócio, relacionamentos entre dados e uso de transações no banco.
-
-`PHP` `Laravel` `Filament` `REST API` `Tailwind CSS`
-
-[Explore o LucasBurger →](https://github.com/sistemout123/LucasBurger)
-
-## O que eu construo
-
-| Área | Na prática |
-| :--- | :--- |
-| **Backend e regras de negócio** | Aplicações em PHP/Laravel, APIs REST e serviços para organizar processos. |
-| **Interfaces web** | Telas e componentes com React, Vue, JavaScript, TypeScript, HTML e CSS. |
-| **Dados** | Modelagem relacional, migrations, Eloquent e SQL com MySQL e SQLite. |
-| **Integrações** | GitHub, OAuth, webhooks e Active Directory/LDAP, presentes no Flow. |
-| **IA aplicada** | Feedback e dicas de programação com diferentes provedores de IA no LeadCode. |
-| **Sistemas de gestão** | Painéis, cadastros e fluxos operacionais; experiência também com Adianti. |
-
-## Construindo a Appruma
-
-**Tecnologia para quem vive do próprio trabalho.**
-
-Sou fundador da Appruma, um produto em desenvolvimento para profissionais autônomos de beleza, tatuagem e serviços. A proposta é reunir a organização de **atendimentos, clientes e rotina profissional** em um só lugar.
-
-É onde conecto desenvolvimento de software à construção de um produto com um problema claro para resolver.
-
-## Cada contribuição conta
+### 03 / CADA CONTRIBUIÇÃO CONTA
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sistemout123/sistemout123/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sistemout123/sistemout123/output/github-snake.svg" />
-  <img src="https://raw.githubusercontent.com/sistemout123/sistemout123/output/github-snake.svg" width="100%" alt="Animação de uma cobrinha percorrendo e comendo as contribuições do meu GitHub" />
+  <img src="https://raw.githubusercontent.com/sistemout123/sistemout123/output/github-snake.svg" width="100%" alt="Cobrinha animada percorrendo as contribuições do GitHub" />
 </picture>
-
-<p align="center">
-  <sub>Um projeto, uma melhoria, uma contribuição de cada vez.</sub>
-</p>
 
 ---
 
-<p align="center">
-  <strong>Conheça mais do meu trabalho</strong><br /><br />
-  <a href="https://joaopedrofernandes.com.br">joaopedrofernandes.com.br ↗</a><br />
-  <sub>Meu portfólio está em construção. Enquanto isso, explore os projetos acima.</sub>
-</p>
+### 04 / VAMOS CONSTRUIR ALGO?
+
+Se você procura alguém para conectar **produto, engenharia e operação**, vamos conversar.
+
+[PORTFÓLIO ↗](https://joaopedrofernandes.com.br) &nbsp;·&nbsp; [EMAIL ↗](mailto:joao.pedroinfo2019@gmail.com) &nbsp;·&nbsp; [LINKEDIN ↗](https://www.linkedin.com/in/joaopedrolacerda/) &nbsp;·&nbsp; [WHATSAPP ↗](https://wa.me/5588999921684)
+
+<sub>Fortaleza, CE · O portfólio está em desenvolvimento; os repositórios dos projetos estão disponíveis acima.</sub>
