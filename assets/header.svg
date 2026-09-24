@@ -6,11 +6,11 @@
     .name{font:108px Impact,'Arial Narrow',sans-serif;letter-spacing:-2px;fill:#eeeade}
     .line{stroke:#393935;stroke-width:1}
     .bob{animation:bob 4.8s ease-in-out infinite;transform-origin:48px 52px}
-    .flame{animation:flame 1.5s ease-in-out infinite;transform-origin:center 292px}
-    .eyes{animation:blink 7s ease-in-out infinite;transform-origin:990px 175px}
+    .flame{animation:flame 1.5s ease-in-out infinite}
+    .eyes{animation:blink 7s steps(1,end) infinite}
     @keyframes bob{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-13px) rotate(3deg)}}
-    @keyframes flame{0%,100%{transform:scaleY(.8)}50%{transform:scaleY(1.18)}}
-    @keyframes blink{0%,45%,48%,100%{transform:scaleY(1)}46.5%{transform:scaleY(.15)}}
+    @keyframes flame{0%,100%{opacity:.58}50%{opacity:1}}
+    @keyframes blink{0%,45%,47%,100%{opacity:1}46%{opacity:0}}
     @media(prefers-reduced-motion:reduce){.bob,.flame,.eyes{animation:none}}
   </style>
   <rect width="1200" height="430" fill="#101010"/>
